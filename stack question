@@ -71,5 +71,5 @@ def is_valid_parentheses(s):
             elif bracket_pairs[c] != stack.pop():
                 return False
     
-    return len(stack) == 0
+    return True
 
